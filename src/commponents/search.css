@@ -1,0 +1,65 @@
+.search {
+	padding: 20px;
+	width: 100%;
+}
+.search__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 546px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 999px;
+	padding: 10px;
+}
+.search__container:hover {
+	background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.search__container input {
+	flex: 1;
+	padding: 4px;
+	font-size: 16px;
+	color: rgba(0,0,0,.87);
+	border: 0;
+	outline-width: 0;
+	width: 100%;
+}
+.search__container input:focus-visible {
+	outline: 0;
+}
+.search__container .MuiSvgIcon-root {
+	font-size: 25px;
+	padding: 2px;
+}
+.search__container .MuiSvgIcon-root:nth-child(1) {
+	color: #9aa0a6;
+}
+.search__buttons button{
+	background-color: #f8f9fa;
+	border: 1px solid #f8f9fa;
+	font-size: 14px;
+	padding: 0 16px;
+	color: #3c4043;
+	margin: 10px 4px;
+	height: 36px;
+	text-transform: capitalize;
+}
+
+.search__buttons button:hover {
+	ox-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.search__buttons {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.search__buttons-hiddin {
+	display: none;
+}

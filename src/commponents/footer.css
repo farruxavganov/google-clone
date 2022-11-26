@@ -1,0 +1,38 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: #70757a;
+}
+.footer__country {
+	padding: 15px 30px;
+	border-bottom: 1px solid #dadce0;
+}
+.footer__links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.footer__lists {
+	display: flex;
+}
+.footer__list a {
+	display: inline-block;
+	padding: 15px;
+	color: #70757a;
+	text-decoration: inherit;
+	font-size: 14px;
+}
+.footer__list a:hover {
+	text-decoration: underline;
+}
+@media only screen and (max-width: 655px) {
+	.footer__links {
+		flex-direction: column;
+	}
+	.footer__list a {
+		font-size: 10px;
+	}
+}

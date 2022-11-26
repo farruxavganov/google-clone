@@ -1,0 +1,87 @@
+.home {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.home__header {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+.home__nav {
+	display: flex;
+	align-items: center;
+}
+.home__lists {
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+}
+
+.home__lists:nth-child(1) .home__list {
+	padding-left: 15px;
+}
+.home__list {
+	display: flex;
+	align-items: center;
+	flex: 0;
+}
+.home__link {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	color: #000000DE;
+	text-decoration: inherit;
+	font-weight: 500;
+	flex: 0;
+}
+.home__lists:nth-child(1) .home__link:hover {
+	text-decoration: underline;
+}
+.home__lists:nth-child(2) .home__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px
+} 
+.home__lists:nth-child(2) .home__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.home__lists:nth-child(2) .home__link:hover {
+	background: rgba(60,64,67,.08);
+}
+.home__lists:nth-child(2) .MuiAvatar-root {
+	width: 30px;
+	height: 30px;
+}
+.home__lists:nth-child(2) .MuiSvgIcon-root {
+	color: #5f6368;
+}
+.home__body {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+/*	align-items: center;*/
+	height: 100%;
+}
+.home__body > .home__logo {
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+.home__main {
+	flex: 1;
+	width: 100%;
+}
+.home__body > .home__logo img {
+	height: 100px;
+}
+.home__footer {
+	background: #f2f2f2;
+}
